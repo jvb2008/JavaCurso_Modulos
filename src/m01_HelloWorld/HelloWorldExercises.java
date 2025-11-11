@@ -14,7 +14,11 @@ public class HelloWorldExercises {
 
         // 5. Imprime tu edad, tu color favorito y tu ciudad.
 
+
+
         // 6. Explora los diferentes System.XXX.println(); más allá de "out".
+
+
 
         // 7. Utiliza varios println para imprimir una frase.
 
