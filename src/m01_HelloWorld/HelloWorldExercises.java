@@ -17,7 +17,7 @@ public class HelloWorldExercises {
 
 
         // 6. Explora los diferentes System.XXX.println(); más allá de "out".
-//prueba23
+//prueba235a
 
 
         // 7. Utiliza varios println para imprimir una frase.
