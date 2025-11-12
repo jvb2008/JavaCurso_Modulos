@@ -9,7 +9,9 @@ System.out.println("Mi nombre es Josu");
 
         // 2. Imprime dos líneas: "Hola" y luego "Mundo" con un solo println.
 
+        System.out.println("Hola" + 5 + 3);
 
+        System.out.println(5 + 3 + "Hola");
 
         // 3. Añade un comentario sobre lo que hace cada línea del programa.
 
