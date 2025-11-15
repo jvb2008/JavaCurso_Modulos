@@ -45,43 +45,55 @@ public class ArraysExercises {
 // ENUNCIADOS NIVEL MÁS AVANZADO (SIN LOOPS)
 // ===============================
 
-// 11) Declara un array de 3 enteros y encuentra el mayor de los tres números
-//     usando sentencias if/else. Guarda el resultado en una variable llamada max
-//     y muéstralo por pantalla.
+// -----------------------------------------------------------
+// 1) Declara un array de 5 números enteros que representen alturas
+//    en centímetros. Calcula la diferencia entre la mayor y la menor
+//    altura y muéstrala por pantalla.
+// -----------------------------------------------------------
 
-// 12) Declara un array de 3 enteros y determina si los números están ordenados
-//     de menor a mayor. Guarda el resultado en una variable booleana
-//     y muéstralo por pantalla.
+// -----------------------------------------------------------
+// 2) Declara un array de 4 números decimales que representen notas.
+//    Calcula la suma de las dos primeras notas y réstale la última.
+// -----------------------------------------------------------
 
-// 13) Declara un array de 3 enteros. Rota los valores una posición hacia la derecha,
-//     es decir, [a0, a1, a2] debe pasar a [a2, a0, a1]. Muestra el array resultante.
+// -----------------------------------------------------------
+// 3) Declara un array de 3 Strings con nombres de animales.
+//    Une los tres nombres en una sola frase separada por comas.
+// -----------------------------------------------------------
 
-// 14) Declara un array de 3 Strings con nombres. Determina cuál es el primero
-//     en orden alfabético (usando compareTo) y muéstralo por pantalla.
+// -----------------------------------------------------------
+// 4) Declara un array de 3 booleans que representen estados.
+//    Muestra cuántos de ellos son true utilizando solo condicionales.
+// -----------------------------------------------------------
 
-// 15) Declara un array de 3 enteros que represente notas de exámenes.
-//     Calcula la media de las dos mejores notas (descartando la más baja)
-//     y muestra la media por pantalla como double.
+// -----------------------------------------------------------
+// 5) Declara un array de 3 caracteres que formen una sigla.
+//    Concaténalos en una sola cadena y muéstrala.
+// -----------------------------------------------------------
 
-// 16) Declara un array de 3 booleanos. Determina si al menos dos de ellos son true
-//     (mayoría verdadera) y muestra el resultado por pantalla.
+// -----------------------------------------------------------
+// 6) Declara un array de 5 enteros. Cambia la posición 0 con la 4
+//    y la 1 con la 3, dejando la 2 igual. Muestra el array resultante.
+// -----------------------------------------------------------
 
-// 17) Declara un array de 3 enteros que represente un color RGB (rojo, verde, azul).
-//     Cada valor debe estar entre 0 y 255. Si algún valor es menor que 0 ponlo a 0,
-//     y si es mayor que 255 ponlo a 255. Muestra el array corregido.
+// -----------------------------------------------------------
+// 7) Declara un array de 3 doubles con temperaturas.
+//    Muestra la temperatura más alta sin usar bucles.
+// -----------------------------------------------------------
 
-// 18) Declara un array de 4 enteros llamado original. Crea otro array de 4 enteros
-//     llamado invertido y copia los valores de forma que quede al revés,
-//     es decir, el último pase a ser el primero, etc. Muestra ambos arrays.
+// -----------------------------------------------------------
+// 8) Declara un array con tres números. Calcula si el segundo número
+//    es el promedio del primero y el tercero (sin bucles).
+// -----------------------------------------------------------
 
-// 19) Declara un array de 4 caracteres que contenga dígitos, por ejemplo:
-//     {'1', '2', '3', '4'}. Construye un número entero con esos dígitos (1234 en el ejemplo)
-//     y muéstralo por pantalla.
+// -----------------------------------------------------------
+// 9) Declara un array de 4 Strings con nombres de ciudades.
+//    Intercambia la segunda ciudad con la cuarta y muestra el array.
+// -----------------------------------------------------------
 
-// 20) Declara un array de 3 enteros que represente una fecha: [día, mes, año].
-//     Comprueba si la fecha es "posible" usando estas reglas simples:
-//     día entre 1 y 31, mes entre 1 y 12 y año mayor que 0
-//     (sin tener en cuenta meses de 30/31 días ni años bisiestos).
-//     Muestra true o false según sea válida o no.
+// -----------------------------------------------------------
+// 10) Declara un array de 3 enteros. Calcula la media redondeada hacia
+//     abajo utilizando una operación matemática apropiada.
+// -----------------------------------------------------------
     }
 }

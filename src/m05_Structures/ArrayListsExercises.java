@@ -10,7 +10,7 @@ public class ArrayListsExercises {
 //    Muestra por pantalla la primera película, la última y el número total de películas.
 
 // 2) Crea un ArrayList<Integer> llamado tiradas con 3 resultados de una tirada de dado (entre 1 y 6).
-//    Cambia el valor de la segunda tirada a 6 usando set y muestra la suma total de las tres tiradas.
+//    Cambia el valor de la segunda tirada a 6 usando set y muestra la suma total de las tres tiradas
 
 // 3) Crea un ArrayList<String> llamado colores con 4 nombres de colores.
 //    Elimina el color que está en la posición 1 usando remove(indice).
@@ -46,50 +46,55 @@ public class ArrayListsExercises {
 // ENUNCIADOS NIVEL AVANZADO (ARRAYLIST, SIN LOOPS)
 // ===============================
 
-// 11) Crea un ArrayList<Integer> llamado notas con 4 calificaciones.
-//     Calcula la diferencia entre la nota más alta y la más baja usando if y get,
-//     y muestra esa diferencia por pantalla.
+// -----------------------------------------------------------
+// 1) Crea un ArrayList con tres nombres y muestra el segundo nombre
+//    junto con el tamaño total de la lista.
+// -----------------------------------------------------------
 
-// 12) Crea un ArrayList<Double> llamado vueltas con 3 tiempos de vueltas en segundos.
-//     Calcula el mejor tiempo (el menor de los tres) y la media de los tres tiempos,
-//     y muestra ambos por pantalla.
+// -----------------------------------------------------------
+// 2) Crea un ArrayList con tres precios. Duplica el valor del primero
+//    y sustitúyelo en la lista.
+// -----------------------------------------------------------
 
-// 13) Crea un ArrayList<String> llamado cola con 3 nombres de personas en una cola de espera.
-//     Simula que la primera persona ha sido atendida eliminándola con remove(0).
-//     Muestra el nombre de la persona atendida y la lista de personas que quedan en la cola.
+// -----------------------------------------------------------
+// 3) Crea un ArrayList con tres colores. Intercambia el primero con
+//    el tercero sin usar bucles.
+// -----------------------------------------------------------
 
-// 14) Crea un ArrayList<String> llamado playlist con 3 títulos de canciones.
-//     Crea un segundo ArrayList<String> llamado favoritos que inicialmente esté vacío.
-//     Añade a favoritos solo la segunda canción de playlist usando get y add.
-//     Muestra ambas listas por pantalla.
+// -----------------------------------------------------------
+// 4) Crea un ArrayList con tres palabras. Concatena las tres en el
+//    orden inverso al original y muéstralas como un String.
+// -----------------------------------------------------------
 
-// 15) Crea un ArrayList<Integer> llamado listaA con 2 números enteros,
-//     y otro ArrayList<Integer> llamado listaB con otros 2 números enteros.
-//     Crea un tercer ArrayList<Integer> llamado diferencias,
-//     donde cada elemento sea listaA.get(i) - listaB.get(i) para cada posición.
-//     Muestra la lista diferencias.
+// -----------------------------------------------------------
+// 5) Crea un ArrayList de enteros con tres valores. Calcula la suma
+//    de los dos últimos y muéstrala.
+// -----------------------------------------------------------
 
-// 16) Crea un ArrayList<String> llamado ciudades con 3 nombres de ciudades.
-//     Crea otro ArrayList<String> llamado ciudadesInvertidas vacío.
-//     Rellénalo con las ciudades en orden inverso (última primero) usando get y add,
-//     y muestra ambas listas por pantalla.
+// -----------------------------------------------------------
+// 6) Crea un ArrayList con tres nombres de frutas. Reemplaza la fruta
+//    del medio por otra distinta y muestra la lista entera.
+// -----------------------------------------------------------
 
-// 17) Crea un ArrayList<Integer> llamado hora con dos elementos: horas y minutos,
-//     por ejemplo [10, 50]. Añade 45 minutos a la hora representada,
-//     ajustando las horas si los minutos pasan de 59.
-//     Muestra la nueva hora (horas y minutos) por pantalla.
+// -----------------------------------------------------------
+// 7) Crea un ArrayList de booleans. Comprueba si el primero y el último
+//    son true al mismo tiempo.
+// -----------------------------------------------------------
 
-// 18) Crea un ArrayList<Boolean> llamado respuestas con 3 valores booleanos.
-//     Calcula cuántos de ellos son true usando if y un contador (sin bucles),
-//     y muestra si hay mayoría de true (al menos 2) o no.
+// -----------------------------------------------------------
+// 8) Crea un ArrayList con tres Strings. Muestra la longitud total
+//    sumada de los tres textos sin usar bucles.
+// -----------------------------------------------------------
 
-// 19) Crea un ArrayList<Double> llamado coordenadas con dos valores: x e y.
-//     Calcula la distancia al origen (0,0) usando la fórmula
-//     distancia = Math.sqrt(x*x + y*y) y muéstrala por pantalla.
+// -----------------------------------------------------------
+// 9) Crea un ArrayList con tres números decimales. Calcula el promedio
+//    de los tres elementos y muéstralo.
+// -----------------------------------------------------------
 
-// 20) Crea un ArrayList<String> llamado correos con 3 direcciones de correo electrónico.
-//     Comprueba si hay algún correo repetido comparando las cadenas con equals,
-//     y muestra true si hay algún duplicado o false si todos son distintos.
+// -----------------------------------------------------------
+// 10) Crea un ArrayList con tres países. Sustituye todos por mayúsculas
+//     usando solo accesos directos a los índices.
+// -----------------------------------------------------------
 
     }
 }

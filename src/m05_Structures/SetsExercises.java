@@ -52,51 +52,55 @@ public class SetsExercises {
 // ENUNCIADOS NIVEL AVANZADO (SETS, SIN LOOPS)
 // ===============================
 
-// 11) Crea dos sets Set<String> llamados "modulosCompletados" y "modulosRequeridos"
-//     con algunos nombres de módulos (por ejemplo "Intro", "POO", "BD").
-//     Comprueba si el usuario ha completado todos los módulos requeridos
-//     usando containsAll y muestra true o false.
+// -----------------------------------------------------------
+// 1) Crea un HashSet con tres colores. Comprueba si contiene el color
+//    "Azul" y muestra un mensaje según el resultado.
+// -----------------------------------------------------------
 
-// 12) Crea dos sets Set<String> llamados "amigosRedA" y "amigosRedB" con nombres
-//     de personas. Calcula la intersección (amigos comunes) creando una copia de
-//     uno de los sets y usando retainAll. Muestra los amigos comunes por pantalla.
+// -----------------------------------------------------------
+// 2) Crea un HashSet con tres números enteros. Comprueba si al añadir
+//    un número repetido el tamaño del set cambia o no.
+// -----------------------------------------------------------
 
-// 13) Crea dos sets Set<String> llamados "registradosEvento" y "pagadoEntrada".
-//     Calcula las personas que están registradas pero aún no han pagado creando
-//     una copia de "registradosEvento" y usando removeAll con "pagadoEntrada".
-//     Muestra la lista de personas que deben pagar.
+// -----------------------------------------------------------
+// 3) Crea un HashSet con tres palabras. Elimina una de ellas y muestra
+//    cuántos elementos quedan.
+// -----------------------------------------------------------
 
-// 14) Crea dos sets Set<String> llamados "clavesSistemaA" y "clavesSistemaB"
-//     con nombres de claves de configuración. Calcula la unión de ambos sistemas
-//     en un nuevo set usando addAll y muéstrala por pantalla.
+// -----------------------------------------------------------
+// 4) Crea un HashSet con tres nombres. Copia los elementos a un nuevo
+//    HashSet sin usar bucles y muéstralo.
+// -----------------------------------------------------------
 
-// 15) Crea dos sets Set<String> llamados "ingredientesReceta1" e "ingredientesReceta2".
-//     Comprueba si las recetas usan exactamente el mismo conjunto de ingredientes
-//     (ignorando el orden) comparando los sets con equals y muestra el resultado.
+// -----------------------------------------------------------
+// 5) Crea un HashSet con tres enteros. Comprueba si el set contiene
+//    todos los valores de un array de dos posiciones sin loops.
+// -----------------------------------------------------------
 
-// 16) Crea un Set<Integer> usando TreeSet<Integer> llamado "puntuaciones".
-//     Añade varias puntuaciones (números enteros) desordenadas. Muestra la puntuación
-//     mínima y máxima usando los métodos first() y last() de TreeSet sin usar bucles.
+// -----------------------------------------------------------
+// 6) Crea un HashSet con tres ciudades. Intenta añadir una ciudad nueva
+//    y muestra si la operación tuvo éxito usando su valor booleano.
+// -----------------------------------------------------------
 
-// 17) Crea un Set<Character> llamado "letrasPalabra" con las letras de una palabra
-//     concreta (por ejemplo "CASA") añadiendo las letras una por una.
-//     Compara el tamaño del set con la longitud de la palabra para determinar si
-//     tiene letras repetidas (si el tamaño del set es menor que la longitud).
-//     Muestra un mensaje indicando si la palabra tiene letras repetidas o no.
+// -----------------------------------------------------------
+// 7) Crea un HashSet de booleans con valores mezclados. Comprueba si
+//    contiene al menos un true usando solo condicionales.
+// -----------------------------------------------------------
 
-// 18) Crea un Set<String> llamado "permisosUsuario" y otro Set<String> llamado
-//     "permisosNecesarios" con permisos como "READ", "WRITE", "DELETE".
-//     Comprueba si el usuario tiene al menos todos los permisos necesarios usando
-//     containsAll y muestra un mensaje de "Acceso concedido" o "Acceso denegado".
+// -----------------------------------------------------------
+// 8) Crea un HashSet con tres números. Calcula la suma de ellos
+//    usando únicamente variables auxiliares (sin iteraciones).
+// -----------------------------------------------------------
 
-// 19) Crea dos sets Set<Integer> llamados "pares" e "impares" con algunos
-//     números pares e impares. Crea un tercer set llamado "numeros" que contenga
-//     todos los números de ambos usando addAll. Muestra los tres sets por pantalla.
+// -----------------------------------------------------------
+// 9) Crea un HashSet con tres letras. Crea un String con todas ellas
+//    concatenadas sin importar el orden.
+// -----------------------------------------------------------
 
-// 20) Crea un Set<String> llamado "dominiosConfiables" con dominios como
-//     "example.com", "midominio.com". Dado un correo concreto en un String
-//     (por ejemplo "usuario@example.com"), extrae el dominio (la parte después de '@'),
-//     comprueba si pertenece al set de dominios confiables y muestra el resultado.
+// -----------------------------------------------------------
+// 10) Crea un HashSet con nombres de animales. Comprueba si dos animales
+//     concretos están dentro del set a la vez.
+// -----------------------------------------------------------
 
     }
 }
