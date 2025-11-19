@@ -51,6 +51,19 @@ public class Exercises {
         System.out.println(String.format("Mi nombre es %s y tengo %d años", name, age));
         System.out.print(("Mi nombre es %s y tengo %d años").formatted(name, age));
 
+        System.out.println("");
+        String s1 = new String("Java");
+        String s2 = "java";
+        System.out.println(s1 == s2);
+        System.out.println(s1.equalsIgnoreCase(s2));
+
+        System.out.println("");
+
+
+        String s = "Hola";
+        String a = s.concat(" Mundo");
+        System.out.println(a);
+
 
     }
 }
