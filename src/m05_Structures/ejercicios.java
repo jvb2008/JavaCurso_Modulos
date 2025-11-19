@@ -1,20 +1,17 @@
 package m05_Structures;
 
-import java.util.HashSet;
-import java.util.Set;
-
 public class ejercicios {
     static void main() {
-        // Crear un Set de tipo String
-        Set<String> frutas = new HashSet<>();
+        boolean llueve = true;
+        boolean paraguas = false;
 
-        // Agregar elementos
-        frutas.add("Manzana");
 
-        // Mostrar el Set
-        System.out.println("Contenido del Set: " + frutas);
+        if (llueve && !paraguas) {
+            System.out.println("Te mojas");
+        } else {
+            System.out.println("No te mojas");
+        }
 
-        // Eliminar un elemento
-        frutas.remove("Naranja");
+
     }
 }

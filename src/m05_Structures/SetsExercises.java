@@ -57,6 +57,7 @@ public class SetsExercises {
 //    "Azul" y muestra un mensaje según el resultado.
 // -----------------------------------------------------------
 
+
 // -----------------------------------------------------------
 // 2) Crea un HashSet con tres números enteros. Comprueba si al añadir
 //    un número repetido el tamaño del set cambia o no.

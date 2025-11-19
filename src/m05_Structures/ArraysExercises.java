@@ -56,6 +56,7 @@ public class ArraysExercises {
 //    Calcula la suma de las dos primeras notas y réstale la última.
 // -----------------------------------------------------------
 
+
 // -----------------------------------------------------------
 // 3) Declara un array de 3 Strings con nombres de animales.
 //    Une los tres nombres en una sola frase separada por comas.

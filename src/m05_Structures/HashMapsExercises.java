@@ -65,11 +65,13 @@ public class HashMapsExercises {
 //    capital almacenada para un país concreto.
 // -----------------------------------------------------------
 
+
 // -----------------------------------------------------------
 // 2) Crea un HashMap donde la clave sea un String (producto) y el valor
 //    un double (precio). Calcula cuánto cuesta comprar dos productos
 //    concretos.
 // -----------------------------------------------------------
+
 
 // -----------------------------------------------------------
 // 3) Crea un HashMap con tres pares nombre->edad. Muestra la edad más
