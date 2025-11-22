@@ -30,13 +30,13 @@ public class LoopsExercises {
 
         // 13. Declara una variable int numero = 12345; y calcula cuántos dígitos tiene sin convertirlo a String.
 
-        //  14. Declara una variable int numero = 987654; y genera su versión invertida (ej.: 987654 → 456789) usando operaciones matemáticas.
+        // 14. Calcular el doble de cada número en un array
 
         // 15. Declara un array con varios números e identifica el valor máximo y el mínimo del array.
 
-        // 16. Declara una variable int n = 6; y determina si es un número perfecto (la suma de sus divisores propios es igual al número).
+        // 16. Contar cuántos divisores tiene un número
 
-        // 17. Declara una variable int objetivo = 25; y genera la serie completa de Fibonacci hasta que se supere ese valor.
+        // 17. Mostrar los primeros n7 números impares
 
         // 18. Declara un array de enteros y calcula el promedio (media) de todos sus elementos sin usar librerías externas.
 
