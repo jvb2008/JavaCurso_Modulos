@@ -54,5 +54,14 @@ public class LoopsExercises {
 
         // 25. Declara una variable int numero = 314159; y calcula la suma de todos sus dígitos usando operaciones matemáticas.
 
+        // 26. Dado un array de enteros, escribe un programa que recorra el array usando loops y determine si todos los números son consecutivos (por ejemplo, {4,5,6,7} sí lo son; {3,5,6} no). No puedes usar Arrays.sort() ni HashSet, solo bucles y condicionales.
+
+        // 27. Declara dos variables sumaPares y sumaImpares. Recorre un array y usa continue para saltar los impares mientras sumas únicamente los pares en sumaPares. Luego, en un segundo bucle, recorre el mismo array y usa break para detenerte al encontrar el primer número negativo, sumando solo los impares anteriores a ese punto en sumaImpares.
+
+        // 28. Dado un array que contiene ceros intercalados, crea un algoritmo usando un solo bucle que genere un nuevo array donde todos los números distintos de cero aparezcan primero (manteniendo su orden original) y los ceros queden desplazados al final. Ejemplo: [4,0,5,0,1] debe transformarse en [4,5,1,0,0].
+
+        // 29. Con un número n, crea un programa que imprima la secuencia completa usando un único bucle:
+        // 1 2 3 ... n ... 3 2 1
+        // No puedes usar arrays ni listas; debes controlar el cambio de dirección del bucle manualmente
     }
 }
