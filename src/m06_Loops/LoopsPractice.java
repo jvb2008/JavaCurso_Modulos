@@ -5,9 +5,38 @@ public class LoopsPractice {
 //        // Loops
 //        // for controlado por contadores
 //
-////        for (int index = 0; index <= 5; index++) {
-////            System.out.println("Hola Java!");
-//        //  }
+//        for (int index = 0; index <= 5; index++) {
+//            System.out.println("Hola Java!");
+//          }
+
+//        for (int index = 5; index >= 0; index--) {
+//            System.out.println("Hola Java!");
+//        }
+
+//        for (int index = 10; index >= 0; index -= 2) {
+//            System.out.println(index);
+//        }
+//
+//        String[] letras = new String[3];
+//        for (String s : letras) {
+//            System.out.println(s);
+//        }
+
+//        int total = 1;
+//        for (int i = 1; i < 4; i++) {
+//            total *= i;
+//
+//        }
+//        System.out.println(total);
+
+        int count = 0;
+        for (int i = 2; i <= 8; i += 2) {
+            count = count + 1;
+            System.out.println(i);
+        }
+//        System.out.println(count);
+
+
 //
 ////        String[] names = {"Josu", "Mikel", "Jonh", "Alex"};
 ////        for (int index = 0; index <= names.length - 1; index++) {
