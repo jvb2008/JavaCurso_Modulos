@@ -4,7 +4,7 @@ public class Person {
     //Attributes
     String name;
     int age;
-    double heigh;
+    double height;
     double weight;
     String genre;
 
@@ -12,7 +12,7 @@ public class Person {
     public Person(String name, int age, double heigh, double weigh, String genre) {
         this.name = name;
         this.age = age;
-        this.heigh = heigh;
+        this.height = heigh;
         this.weight = weigh;
         this.genre = genre;
     }
