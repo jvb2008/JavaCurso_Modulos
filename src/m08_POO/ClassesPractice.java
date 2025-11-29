@@ -7,9 +7,8 @@ public class ClassesPractice {
         person.sayHelloWithAge();
         person.age = 25;
 
-        Vehicle car1 = new Vehicle("Mikel", 4, 3, "7654HBN");
-        car1.accelerate(100);
+//        Vehicle car1 = new Vehicle("Mikel");
+//        car1.arrancar();
 
-        System.out.println(car1.owner);
     }
 }

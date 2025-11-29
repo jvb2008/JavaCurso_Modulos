@@ -1,23 +1,62 @@
 package m08_POO;
 
-public class Vehicle {
-    String owner;
-    int wheels;
-    int doors;
-    String licencePlate;
+import java.util.ArrayList;
 
-    public Vehicle(String owner, int wheels, int doors, String licencePlate) {
-        this.owner = owner;
-        this.wheels = wheels;
-        this.doors = doors;
-        this.licencePlate = licencePlate;
+abstract class Vehicle {
+
+    private String marca;
+
+    public Vehicle(String marca) {
+        this.marca = marca;
     }
 
-    void accelerate(int speed) {
-        if (speed >= 0 && speed <= 120) {
-            System.out.println("El coche con matricula " + this.licencePlate + " " + " está acelerando");
-        } else {
-            System.out.println("El coche con matricula " + this.licencePlate + " debe frenar");
+    abstract void arrancar();
+
+    void frenar() {
+        System.out.println("El vehiculo está frenando");
+    }
+
+}
+
+class Moto extends Vehicle {
+    public Moto(String name) {
+        super(name);
+    }
+
+    @Override
+    void arrancar() {
+        System.out.println("La moto está arrancando");
+    }
+}
+
+interface volador {
+    void volar();
+}
+
+
+class Avion extends Vehicle implements volador {
+    public Avion(String name) {
+        super(name);
+    }
+
+    @Override
+    void arrancar() {
+        System.out.println("El avión está arrancando");
+    }
+
+    @Override
+    public void volar() {
+        ArrayList<String> arr = new ArrayList<>();
+        arr.add("1");
+        arr.add("2");
+        arr.add("3");
+        arr.add("4");
+        try {
+            System.out.println(arr.get(4));
+        } catch (Exception ex) {
+            System.out.println("Error");
         }
+
+
     }
 }
