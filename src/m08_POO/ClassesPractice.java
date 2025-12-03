@@ -5,10 +5,14 @@ public class ClassesPractice {
         Person person = new Person("Josu", 18, 1.78, 80, "man");
         person.sayHello();
         person.sayHelloWithAge();
-        person.age = 25;
+//        person.age = 25;
 
-//        Vehicle car1 = new Vehicle("Mikel");
-//        car1.arrancar();
-
+        person.sayHelloWithAge();
+        person.sayHelloWithHeight();
+//        person.height = 1.85;
+        person.sayHelloWithHeight();
+        System.out.println(person.getAge());
+        person.setAge(25);
+        System.out.println(person.getAge());
     }
 }

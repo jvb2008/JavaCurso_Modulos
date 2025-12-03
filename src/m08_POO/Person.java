@@ -2,11 +2,12 @@ package m08_POO;
 
 public class Person {
     //Attributes
-    String name;
-    int age;
-    double height;
-    double weight;
-    String genre;
+    private String name;
+    private String genre;
+    private int age;
+    private double height;
+    private double weight;
+
 
     //Contructor
     public Person(String name, int age, double heigh, double weigh, String genre) {
@@ -24,6 +25,18 @@ public class Person {
 
     public void sayHelloWithAge() {
         System.out.println("Hello, my age is: " + this.age);
+    }
+
+    public void sayHelloWithHeight() {
+        System.out.println("Hello, my height is: " + this.height);
+    }
+
+    public int getAge() {
+        return this.age;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
     }
 
 
