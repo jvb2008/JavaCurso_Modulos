@@ -1,57 +1,65 @@
 package m08_POO;
 
-public class Animal {
+abstract public class Animal {
     private String name;
-    String color;
-    int age;
-    double weight;
 
-    public Animal(String name, String color, int age, double weight) {
+    public Animal(String name) {
         this.name = name;
-        this.color = color;
-        this.age = age;
-        this.weight = weight;
     }
 
-    public String getName() {
-        return this.name;
-    }
+    abstract void makeSound();
 
-    public void eat() {
-        System.out.println("El animal está comiendo");
-    }
 }
 
 class Dog extends Animal {
-    String legsColor;
-
-    public Dog(String name, String color, int age, double weight, String legsColor) {
-        super(name, color, age, weight);
-        this.legsColor = legsColor;
+    public Dog(String name) {
+        super(name);
     }
 
     @Override
-    public void eat() {
-        System.out.println("El perro está comiendo");
+    void makeSound() {
+        System.out.println("GUAU!!");
     }
 }
 
+class Cat extends Animal {
 
-class Bird extends Animal {
-    String wingsColor;
-
-    public Bird(String name, String color, int age, double weight, String wingsColor) {
-        super(name, color, age, weight);
-        this.wingsColor = wingsColor;
+    public Cat(String name) {
+        super(name);
     }
 
     @Override
-    public void eat() {
-        System.out.println("El pajaro está comiendo");
+    void makeSound() {
+        System.out.println("MIAU!!");
+    }
+}
+
+interface Flying {
+    void fly();
+}
+
+interface Pecker {
+    void peck();
+}
+
+class Bird extends Animal implements Flying, Pecker {
+
+    public Bird(String name) {
+        super(name);
     }
 
+    @Override
+    void makeSound() {
+        System.out.println("piopio");
+    }
+
+    @Override
     public void fly() {
-        System.out.println("El pajaro vuela");
+        System.out.println("El pajaro está volando");
     }
 
+    @Override
+    public void peck() {
+        System.out.println("El pajaro esta picoteando");
+    }
 }
