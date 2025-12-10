@@ -2,83 +2,76 @@ package m02_Fundamentals;
 
 public class Operators {
     static void main() {
-//        //Aritmeticos
-//        int a = 2;
-//        int b = 4;
-//        int c = a + b;
-//        System.out.println(c);
-//        System.out.println(b - a);
-//        System.out.println(b * a);
-//        System.out.println(b / a);
-//        System.out.println(b % a);
-//
-//        //Asignacion
-//        a = b;
-////        System.out.println(a);
-//
-//        b = a;
-////        System.out.println(b);
-////        System.out.println(a);
-//
-////        a = b * 2;
-////        System.out.println(a);
-////
-////        a += 1; // a = a + 1;
-////        System.out.println(a);
-//
-////        a -= 1;
-////        System.out.println(a);
-//
-////        a *= 1; a = a * 1;
-////        System.out.println(a);
-//
-////        a = 8;
-////        a /= 3; // a = a / 2;
-////        System.out.println(a);
-////
-////        a = 8;
-////        a %= 3; // a = a % 2;
-////        System.out.println(a);
-//
-//        //Comparación
-//        a = 8;
-//        b = 8;
-////        boolean c = a == b;
-////        System.out.println(a == b);
-////
-////        System.out.println(a != b);
-////
-////        System.out.println(a > b);
-////        System.out.println(a < b);
-////        System.out.println(a <= b);
-//
-//// logicos
-//
-////        System.out.println(true && true);
-////        System.out.println((8 > 5) && (4 == 2));
-////        System.out.println((8 < 5) || (4 == 2));
-//
-////        System.out.println(!true);
-//
-////        System.out.println((!(8 > 5) && (4 == 2)));
-//
-//        //Unarios
-//        a = 8;
-//        b = 6;
-//
-////        System.out.println(-a);
-////        System.out.println(-b);
-//
-////        System.out.println(++a);
-//        System.out.println(a--);
-//        System.out.println(a);
-//
-//        double e = 10;
-//        double f = 4;
-//        System.out.println(e / f);
+// Aritméticos
+        var a = 5;
+        var b = 3;
 
-        int a = 2;
-        int b = a++;
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a * b);
+        System.out.println(a / b);
+        System.out.println(a % b);
+
+        // Asignación
+        a = b;
+        System.out.println(a);
+
+        a = b * 2;
+        System.out.println(a);
+
+        a += 1; // a = a + 1
+        System.out.println(a);
+
+        a -= 1;
+        System.out.println(a);
+        a *= 2;
+        System.out.println(a);
+        a /= 2;
+        System.out.println(a);
+        a %= 2;
+        System.out.println(a);
+
+        // Comparación (Relacionales)
+        System.out.println(a == b);
+        System.out.println(a == 0);
+
+        System.out.println(a != b);
+        System.out.println(a > b);
+        System.out.println(a >= b);
+        System.out.println(a < b);
+        System.out.println(a <= b);
+
+        // Lógicos
+        // Y (AND)
+        System.out.println(true && true);
+        System.out.println(true && false);
+        System.out.println(false && true);
+        System.out.println(false && false);
+
+        System.out.println(3 > 2 && 5 == 2);
+
+        // O (OR)
+        System.out.println(true || true);
+        System.out.println(true || false);
+        System.out.println(false || true);
+        System.out.println(false || false);
+
+        System.out.println(3 > 2 || 5 == 2);
+
+        // NO (NOT)
+        System.out.println(!true);
+        System.out.println(!false);
+
+        System.out.println(!(3 > 2) || 5 == 2);
+
+        // Unarios
+        System.out.println(+b);
+        System.out.println(-b);
+        System.out.println(++b);
+        System.out.println(b++);
+        System.out.println(b);
+        System.out.println(--b);
+        System.out.println(b--);
         System.out.println(b);
 
 
